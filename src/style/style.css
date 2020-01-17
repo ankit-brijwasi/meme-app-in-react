@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(236, 236, 236);
+}
+  
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+.navbar {
+    background-color: #000;
+    padding: 13px;
+    display: block;
+    text-align: center;
+}
+
+.navbar p {
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+
+.brand-name {
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+
+.main-content {
+    width: 80%;
+    margin: auto
+}
+
+.accept-caption {
+    border: 0.8px solid rgb(224, 224, 224);
+    display: inline-flex;
+    border-radius: 5px;
+    padding: 10px 8px;
+    font-weight: 300;
+    background-color: #fff;
+    width: 40%;
+    margin: 15px auto 8px auto;
+}
+
+.accept-caption::placeholder {
+    color: rgb(143, 141, 141);
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.cover-img {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    background-color: #000;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    top: 20px;
+    left: 30px;
+    text-shadow: 1px 1px #000;
+    color: #fff;
+}
+
+.btn {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 18px;
+    cursor: pointer;
+}
+
+.btn-dark {
+    background-color: #404040;
+    color: rgb(235, 235,235);
+    transition: 0.2s ease-in-out;
+}
+
+.btn-dark:hover{
+    opacity: 0.9;
+}
+
+.btn-link {
+    background-color: transparent;
+    color: #135797;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    display: block;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    background-color: #000;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: center;
+    border-top: 1px solid #e2e2e2;
+    padding: 10px;
+}
